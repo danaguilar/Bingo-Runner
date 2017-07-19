@@ -1,0 +1,29 @@
+// Place all the styles related to the static-pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Bingo View
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: blue;
+}
+.container{
+	margin: 10vh auto;
+	width: 100vh;
+}
+
+.row{
+	width: auto;
+}
+
+.square{
+	display: inline-block;
+	height: 16vh;
+	width: 16vh;
+	background-color: gray;
+}
